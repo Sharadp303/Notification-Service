@@ -12,6 +12,6 @@ mongoose.connect(dbconfig,()=>{
     console.log("connected to Server")
 },(err)=>{console.log(err)})
 
-app.listen(8050,()=>{
-    console.log('server Running on localhost:8050')
+app.listen(5000,()=>{
+    console.log('server Running on localhost:5000')
 })
